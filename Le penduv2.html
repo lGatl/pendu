@@ -1,0 +1,80 @@
+
+ <html>
+ <head>
+ 
+<meta charset="utf-8" />
+<link href="penduv2.css" rel="stylesheet" media="all" type="text/css"> 
+<title>LE PENDU</title>
+
+</head>
+
+<body >
+
+   
+<div >
+
+<p ><H1>LE PENDU</H1></p>
+<INPUT class="bouton" type="button" onclick="fonctionne();" value="&nbsp;Change de mot&nbsp;" >
+<p > &nbsp;</p>
+  
+</div>
+
+
+
+
+
+
+
+<p class = "flotte">
+<img  src="dessin-jeu-pendu-0.gif" id= "im0" />
+</p>   
+
+<p > &nbsp;</p>
+<p>&nbsp;<INPUT texte1 class="ttb" type="text" name="zonedetexte" value="" id="TB"onkeypress="refuserToucheEntree(event);">
+	
+<INPUT bouton1 class="bouton2" type="button" value="Valider" id="Valider" onclick="testlettre();" ></p>
+
+<p id="aaa" class="cc"> &nbsp;  </p>
+<p	class="petit"> &nbsp;  </p>
+<p id="bbb" class="cc"> &nbsp;</p>
+
+ <p>Un accent n'est pas pris en compte  </p>
+<p> un caractere special ou un nombre sera considéré comme faux </p>
+
+<img  src="dessin-jeu-pendu-1.gif" id= "im1" />
+<img  src="dessin-jeu-pendu-2.gif" id= "im2" />
+<img  src="dessin-jeu-pendu-3.gif" id= "im3" />
+<img  src="dessin-jeu-pendu-4.gif" id= "im4" />
+<img  src="dessin-jeu-pendu-5.gif" id= "im5" />
+<img  src="dessin-jeu-pendu-6.gif" id= "im6" />
+<img  src="dessin-jeu-pendu-7.gif" id= "im7" />
+<img  src="dessin-jeu-pendu-gagne.png" id= "im8" />
+
+
+</div>
+
+<script type="text/javascript">
+
+for (i=1 ;i<=8;i++) {document.getElementById('im'+i).style.display = "none";} 
+
+</script>
+
+
+<script type="text/javascript" src="penduv2.js"></script>
+
+<script type="text/javascript">
+fonctionne();
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
